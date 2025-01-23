@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const valor = localStorage.getItem('DigitalItem');
+        document.write("O Item é: " + valor);
+
+        const aluno = {nome: 'Max', idade: 12 }
+        // Convertendo objeto para Texto
+        const objetoTexto = JSON.stringify(aluno)
+        localStorage.setItem('token', objetoTexto)
+
+
+        const textoObjeto = localStorage.getItem('token')
+        // Convertendo Texto para Objeto
+        const objeto = JSON.parse(textoObjeto)
+        console.log(objeto.nome)
+        
+    </script>
+    <br>
+    <br>
+    <a href="2_localStorage.html">Pagina anterior</a>
+</body>
+</html>
