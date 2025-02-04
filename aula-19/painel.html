@@ -9,11 +9,11 @@
     <script>
         const token = localStorage.getItem('token@sistema');
         if(token === null) {
-            window.location.href = '/login.html';
+            window.location.href = 'login.html';
         }
         function logout() {
             localStorage.removeItem('token@sistema');
-            window.location.href = '/login.html';
+            window.location.href = 'login.html';
         }
     </script>
 </head>

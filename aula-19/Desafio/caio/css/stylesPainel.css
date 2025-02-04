@@ -1,7 +1,9 @@
 img {
-    height: 45px;
-    width: 45px;
+    height: 90px;
+    width: 90px;
     padding-top: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: white;
     border-radius: 50%;
     box-shadow: 3px 1px 3px;
