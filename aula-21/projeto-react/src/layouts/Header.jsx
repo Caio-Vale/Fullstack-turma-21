@@ -2,8 +2,8 @@ function Header() {
     return (
         <header id="topo" className="vh-10 text-white">
             <div className="d-flex justify-content-between p-3">
-                <div>
-                    Logo do carai
+                <div className="">
+                    Logo
                 </div>
                 <div style={styles.menu}>   
                     Menu
